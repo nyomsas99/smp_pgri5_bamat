@@ -1,0 +1,76 @@
+body {
+  background-color: #ffffff;
+}
+
+.navbar {
+  font-family: Viga;
+  background-image: linear-gradient(#2b5876, #4e4376);
+}
+.great {
+  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  font-family: Unbounded;
+  text-align: center;
+}
+.nav-link {
+  color: white;
+}
+.jumbo {
+  position: relative;
+  bottom: 40px;
+  font-family: Viga;
+  /* color: #762b48; */
+  border-radius: 10px;
+  background: #d7dacc;
+}
+.jumbotron {
+  background-image: url("../img/IMG-20201228-WA0042.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  margin-top: -100px;
+  /* background-attachment: fixed; */
+}
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  font-family: Unbounded;
+  /* width: 900px;
+  margin: auto;
+  padding: 10px; */
+
+  text-transform: uppercase;
+  /* color: #244d49; */
+  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+  .nav-link:hover {
+    border-bottom: 3px solid #000b63dc;
+  }
+}
+#vm {
+  margin-top: -48px;
+}
+#vm .card-body {
+  text-align: justify;
+}
+#kegiatan {
+  margin-top: -48px;
+}
+#galery {
+  margin-top: -48px;
+}
+#contact {
+  margin-top: -48px;
+}
+
+a {
+  text-decoration: none;
+}
