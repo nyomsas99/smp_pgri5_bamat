@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  height: 3rem;
 }
 
 .navbar {
@@ -16,19 +17,23 @@ body {
 }
 .jumbo {
   position: relative;
-  bottom: 40px;
+  bottom: 100px;
   font-family: Viga;
   /* color: #762b48; */
   border-radius: 10px;
   background: #d7dacc;
 }
+
 .jumbotron {
   background-image: url("../img/IMG-20201228-WA0042.jpg");
   background-size: cover;
   height: 650px;
   width: 100%;
-  margin-top: -100px;
-  /* background-attachment: fixed; */
+  margin-top: -70px;
+  background-attachment: fixed;
+}
+section {
+  padding-top: 5rem;
 }
 
 .jumbotron .display-4 {
@@ -49,7 +54,7 @@ body {
 @media (min-width: 992px) {
   .nav-link {
     text-transform: uppercase;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .nav-link:hover {
     border-bottom: 3px solid #000b63dc;
@@ -73,4 +78,7 @@ body {
 
 a {
   text-decoration: none;
+}
+#about {
+  margin-top: -48px;
 }
