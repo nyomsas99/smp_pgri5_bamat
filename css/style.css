@@ -25,11 +25,11 @@ body {
 }
 
 .jumbotron {
-  background-image: url("../img/IMG-20201228-WA0042.jpg");
+  background-image: url("../img/20200917_160311.jpg");
   background-size: cover;
   height: 650px;
   width: 100%;
-  margin-top: -70px;
+  margin-top: -30px;
   background-attachment: fixed;
 }
 section {
@@ -48,6 +48,15 @@ section {
 
   text-transform: uppercase;
   /* color: #244d49; */
+  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  font-family: Unbounded;
   text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
