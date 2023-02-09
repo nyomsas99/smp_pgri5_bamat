@@ -58,7 +58,7 @@ section {
   top: 300px;
   font-family: Unbounded;
   text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
-  font-size: 4vw;
+  /* font-size: 4vw; */
   margin: 0;
   font-weight: 900;
   background: url("../img/bg.jpg");
