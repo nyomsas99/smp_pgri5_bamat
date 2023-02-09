@@ -52,7 +52,7 @@ section {
 }
 
 .title {
-  color: white;
+  /* color: white; */
   text-align: center;
   position: relative;
   top: 300px;
@@ -61,7 +61,80 @@ section {
   /* font-size: 4vw; */
   margin: 0;
   font-weight: 900;
-  background: url("../img/bg.jpg");
+  /* background: url("../img/bg.jpg"); */
+  /* background-color: #00dbde; */
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+.vm {
+  font-family: Unbounded;
+  text-shadow: 3px 3px 0px #4158d0, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-weight: 900;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+.kg {
+  font-family: Viga;
+  text-shadow: 3px 3px 0px #4158d0, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-weight: 900;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+.gl {
+  font-family: Viga;
+  text-shadow: 3px 3px 0px #4158d0, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-weight: 900;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+  );
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+.cu {
+  font-family: Viga;
+  text-shadow: 3px 3px 0px #4158d0, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-weight: 900;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+
   background-size: 40%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
