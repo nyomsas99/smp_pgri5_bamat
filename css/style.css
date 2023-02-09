@@ -58,6 +58,27 @@ section {
   top: 300px;
   font-family: Unbounded;
   text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  font-size: 4vw;
+  margin: 0;
+  font-weight: 900;
+  background: url("../img/bg.jpg");
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+.abt {
+  color: white;
+  margin: 0;
+  font-weight: 900;
+  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  /* background: url("../img/bg.jpg"); */
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
 }
 
 @media (min-width: 992px) {
@@ -89,5 +110,10 @@ a {
   text-decoration: none;
 }
 #about {
-  margin-top: -48px;
+  margin-top: -80px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
 }
