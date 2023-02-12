@@ -134,6 +134,25 @@ section {
     #2bd2ff 52%,
     #2bff88 90%
   );
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
+}
+
+.head {
+  font-family: Viga;
+  text-shadow: 3px 3px 0px #ffffff, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  font-weight: 900;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 
   background-size: 40%;
   background-position: 50% 50%;
@@ -183,10 +202,12 @@ a {
   text-decoration: none;
 }
 #about {
+  font-family: Viga;
   margin-top: -80px;
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
   color: white;
+  /* opacity: 0.5; */
 }
