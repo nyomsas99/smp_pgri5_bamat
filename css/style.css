@@ -8,9 +8,17 @@ body {
   background-image: linear-gradient(#2b5876, #4e4376);
 }
 .great {
-  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
-  font-family: Unbounded;
+  text-shadow: 3px 3px 0px #ffffff, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  font-family: Viga;
   text-align: center;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoom 10s ease 500ms forwards;
 }
 .nav-link {
   color: white;
@@ -161,11 +169,12 @@ section {
   animation: zoom 10s ease 500ms forwards;
 }
 .abt {
-  color: white;
+  font-family: Viga;
+  text-shadow: 3px 3px 0px #ffffff, 8px 8px 0px rgba(0, 0, 0, 0.1);
   margin: 0;
   font-weight: 900;
-  text-shadow: 3px 3px 0px #d7dacc, 8px 8px 0px rgba(0, 0, 0, 0.1);
-  /* background: url("../img/bg.jpg"); */
+  background-color: #52acff;
+  background-image: linear-gradient(180deg, #52acff 25%, #ffe32c 100%);
   background-size: 40%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
