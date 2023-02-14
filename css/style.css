@@ -5,7 +5,14 @@ body {
 
 .navbar {
   font-family: Viga;
-  background-image: linear-gradient(#2b5876, #4e4376);
+  /* background-image: linear-gradient(#2b5876, #4e4376); */
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 }
 .great {
   text-shadow: 3px 3px 0px #ffffff, 8px 8px 0px rgba(0, 0, 0, 0.1);
@@ -95,7 +102,8 @@ section {
   background-size: 40%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
-  color: rgba(0, 0, 0, 0.08);
+  /* color: rgba(0, 0, 0, 0.08); */
+  color: #ffffff;
   animation: zoom 10s ease 500ms forwards;
 }
 .kg {
@@ -109,7 +117,8 @@ section {
   background-size: 40%;
   background-position: 50% 50%;
   -webkit-background-clip: text;
-  color: rgba(0, 0, 0, 0.08);
+  /* color: rgba(0, 0, 0, 0.08); */
+  color: #ffffff;
   animation: zoom 10s ease 500ms forwards;
 }
 .gl {
